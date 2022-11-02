@@ -2,7 +2,7 @@
     --primary-text-color: #212121;
     --sacondary-text-color: #757575;
     --accent-color: #2196F3;
-    --
+    --primary-white-text: #ffffff;
 }
 
 html {
@@ -116,7 +116,7 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-    color: #ffffff;
+    color: var(--primary-white-text);
 
 
 }
@@ -130,7 +130,7 @@ ul {
     letter-spacing: 0.06em;
     
     background-color: var(--accent-color);
-    color: #ffffff;
+    color: var(--primary-white-text);
     border-color: var(--accent-color);
     width: 215px;
     height: 50px;
@@ -177,7 +177,7 @@ ul {
 
 /*Team*/
 .team {
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-text);
 }
 
 .team-photo {
@@ -232,7 +232,7 @@ ul {
 .filter-button-list:hover,
 .filter-button-list:focus {
     background-color:var(--accent-color);
-    color: #ffffff;
+    color: var(--primary-white-text);
     border-color: var(--accent-color);
 }
 
@@ -257,7 +257,7 @@ ul {
 }
 
 .project-list {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 /*Footer*/
@@ -267,14 +267,15 @@ ul {
 }
 
 .footer-logo-word {
-    color: #ffffff;
+    color: var(--primary-white-text);
 }
 
 .address {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
 
-    color: #ffffff;
+    color: var(--primary-white-text);
 }
 
 .address 
