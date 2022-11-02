@@ -5,6 +5,15 @@
     --
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*, *::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: #F5F5F5;
     color: var(--primary-text-color);
@@ -12,7 +21,8 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.03em;
-
+    width: 1600px;
+    margin: 0 auto;
 }
 
 ul {
@@ -253,8 +263,6 @@ ul {
 /*Footer*/
 
 .footer {
-    width: 1600px;
-    height: 250px;
     background-color: #2F303A;
 }
 
