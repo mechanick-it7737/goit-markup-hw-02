@@ -77,7 +77,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: var(--sacondary-text-color);
 
     text-decoration: none;
 }
@@ -130,7 +130,7 @@ ul {
 
 .hero-button:hover 
 .hero-button:focus {
-    
+
 }
 
 .hidden-title {
